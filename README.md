@@ -1,7 +1,6 @@
-# Unity2DExample
+# Unity 2D Example Game
 
 This example game was created using the following artists amazing free assets:
-
 
 Art - Luis Zuno (ansimuz)'s [Warped Caves asset pack](https://ansimuz.itch.io/warped-caves).
 
