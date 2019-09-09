@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour {
     public AudioClip landSound;
     public AudioClip superJumpSound;
     public AudioClip superJumpGroundSound;
+    public AudioClip hurtSound;
 
     void Start() {
         rb = GetComponent<Rigidbody2D>();
@@ -120,6 +121,7 @@ public class PlayerController : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Enemy") {
             animator.SetTrigger("Hurt");
+            audioSource.PlayOneShot(hurtSound);
             rb.velocity = new Vector2(0, 8);
         }
     }

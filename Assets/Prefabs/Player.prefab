@@ -4812,7 +4812,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3767830136445687960}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.38, y: 2.13, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -5056,6 +5056,7 @@ MonoBehaviour:
   superJumpSound: {fileID: 8300000, guid: c4157ef7c8226b940b271dc02fe6be69, type: 3}
   superJumpGroundSound: {fileID: 8300000, guid: 69e018b77a04cc140ab1cb1b9b267441,
     type: 3}
+  hurtSound: {fileID: 8300000, guid: da15d58deb07d494799e787137b387a2, type: 3}
 --- !u!1 &3767830136799209945
 GameObject:
   m_ObjectHideFlags: 0
