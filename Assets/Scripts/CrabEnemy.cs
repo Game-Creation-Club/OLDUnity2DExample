@@ -16,7 +16,6 @@ public class CrabEnemy : MonoBehaviour {
     private float timer = 0f;
 
     public int health = 5;
-    private bool alive = true;
 
     public GameObject deathEffect;
 
