@@ -32667,8 +32667,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   mainCamera: {fileID: 519420032}
-  xrate: 0.75
-  yrate: 0.75
+  rate: 0.75
 --- !u!212 &641041549
 SpriteRenderer:
   m_ObjectHideFlags: 0

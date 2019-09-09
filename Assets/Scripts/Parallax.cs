@@ -9,7 +9,7 @@ public class Parallax : MonoBehaviour {
 
     public Transform mainCamera;
 
-    public float xrate, yrate;
+    public float rate;
 
     void Start() {
         initCameraPos = mainCamera.position;
@@ -17,10 +17,7 @@ public class Parallax : MonoBehaviour {
     }
 
     void LateUpdate() {
-        Vector3 newPos = initPos;
-        newPos.x += (mainCamera.position - initCameraPos).x * xrate;
-        newPos.y += (mainCamera.position - initCameraPos).y * yrate;
-        transform.position = newPos;
+        transform.position = initPos + (mainCamera.position - initCameraPos) * rate;
     }
 
 
