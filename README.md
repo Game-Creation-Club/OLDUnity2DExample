@@ -1,4 +1,4 @@
-# Unity 2D Example Game
+# Unity 2D Example Game (OUTDATED)
 
 This example game was created using the following artists amazing free assets:
 
